@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Amor!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Feliz Aniversário, Vitória Bazzuco Gozo!!!</h1>
+            <p class="subtitulo">Hoje é seu dia meu amor, um dia especial para se celebrar!! ❤️</p>
+        </header>
+
+        <!-- Slideshow de Fotos -->
+        <div class="slideshow">
+            <img src="trator.jpeg" alt="Nossa Foto" class="slide">
+            <img src="anonovo.jpeg" alt="Nossa Foto" class="slide">
+            <img src="aviao.jpeg" alt="Nossa Foto" class="slide">
+            <img src="capivara.jpeg" alt="Nossa Foto" class="slide active">
+            
+            <img src="delicia.jpeg" alt="Nossa Foto" class="slide">
+            <img src="efeito.jpeg" alt="Nossa Foto" class="slide">
+            <img src="onibus.jpeg" alt="Nossa Foto" class="slide">
+            <img src="restaurante.jpeg" alt="Nossa Foto" class="slide">
+            <img src="vvl.jpeg" alt="Nossa Foto" class="slide">
+            <img src="sigma.jpeg" alt="Nossa Foto" class="slide">
+            <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+            <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+        </div>
+
+        <!-- Mensagem Personalizada -->
+        <div class="mensagem">
+            <h2>Pra você saber o quanto eu te amo...</h2>
+            <p>
+                Meu amor, hoje é um dia mais do que especial, porque é o dia em que o mundo ganhou a pessoa mais incrível 
+                que eu já conheci. Desde que você entrou na minha vida, tudo ficou mais bonito, mais leve, mais cheio de cor. 
+                Seu sorriso ilumina meus dias, seu abraço é meu lugar favorito no mundo, e o seu jeito me encanta cada vez 
+                mais. Você é a definição mais perfeita de amor que eu poderia encontrar. Eu sou grato por cada momento ao 
+                seu lado, por cada risada, por cada conversa, por cada instante que me faz perceber o quanto sou sortudo por ter 
+                você na minha vida. Você é minha paz, minha melhor amiga, minha parceira para tudo e eu só quero retribuir tudo o que faz por mim. 
+                Eu sei que eu erro, mas busco sempre melhorar por você, pela gente. Você me faz mais feliz todos os dias e quero te lembrar 
+                sempre do quanto você é incrível, do quanto você é especial e do quanto eu te amo.
+                Feliz aniversário, meu amor! Que esse novo ciclo traga ainda mais felicidade, conquistas e momentos inesquecíveis. 
+                E que eu possa estar ao seu lado para celebrar cada um deles. Te amo infinitamente para sempre! ❤️🎉🎂<br>
+                <span class="assinatura">Com todo meu amor,<br>Vitor</span>
+            </p>
+        </div>
+
+        <!-- Botão de Música -->
+        <div class="musica">
+            <button onclick="tocarMusica()"><i class="fas fa-heart"></i> Tocar Música</button>
+            <audio id="musica" src="musicaLove.mp3"></audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
